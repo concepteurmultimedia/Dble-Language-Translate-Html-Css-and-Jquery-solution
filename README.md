@@ -7,6 +7,8 @@ Put a class="fr" or class="en" attribut on ours elements in page
 	<li id="french" onclick="langFrench()">français</li>
 	<li id="english" onclick="langEnglish()">anglais</li>
 </ul>
+```
+
 
 ### Tips for Fr/En function : language.js
 ```Js
