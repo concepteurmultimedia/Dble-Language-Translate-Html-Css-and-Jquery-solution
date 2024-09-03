@@ -1,5 +1,7 @@
 You may created ul and li with their "id" and put the onclick function for language Fr/En :
 
+### Tips for Fr/En language
+
 ```
 <ul id="language">
 	<li id="french" onclick="langFrench()">français</li>
@@ -9,20 +11,9 @@ You may created ul and li with their "id" and put the onclick function for langu
 
 
 
-You create style.css for generic index elements for your design : 
+
+### You create style.css for generic index elements and ul language of our design : 
 ```
-  html, body, div, ul, li, img, h1, h2, h3 , h4, h5, p {
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    user-select: none;
-    pointer-events: auto;
-    cursor: default;
-  }
   html ul#language{
     width : 50px;
     height:50px;
@@ -58,38 +49,13 @@ You create style.css for generic index elements for your design :
     left:10px;
     display:block;
   }
-  html ul#nav{
-    margin-top:5%;
-    margin-left:5%;
-    list-style-type:none;
-  }
-  html ul#nav li a:hover
-  {
-    line-height:50px;
-    font-size:45px;
-    cursor:pointer;
-    transition:all 0.5s ease;
-  }
-  html ul#nav li a{
-    text-transform:uppercase;
-    text-decoration:none;
-    color:rgb(0,0,0);
-    transition:all 0.5s ease;
-  }
-  html p{
-    position:absolute;
-    top:38%;
-    left:35%;
-    width:45%;
-    margin:auto;
-  }
 ```
 
 
 
+### You can create two .css one for Fr and other for En 
 
-
-Fr.css :
+### Fr.css :
 ```
 .fr{
 	display:block !important;
