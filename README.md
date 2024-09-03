@@ -22,7 +22,7 @@ function langEnglish() {
 		$("#language").attr("href", "./css/En.css"); 			
 	} );
 }
-
+```
 
 
 ### You create style.css for generic index elements and ul language of our design : 
