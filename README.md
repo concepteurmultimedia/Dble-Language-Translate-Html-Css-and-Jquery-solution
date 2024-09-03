@@ -69,7 +69,7 @@ function langEnglish() {
 ### You can create two .css one for Fr and other for En 
 
 ### Fr.css :
-```CSS
+```Css
 .fr{
 	display:block !important;
 }
