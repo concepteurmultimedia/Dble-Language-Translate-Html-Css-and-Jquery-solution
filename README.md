@@ -1,4 +1,15 @@
-style.css : 
+You may created ul and li with their "id" and put the onclick function for language Fr/En :
+
+```
+<ul id="language">
+	<li id="french" onclick="langFrench()">français</li>
+	<li id="english" onclick="langEnglish()">anglais</li>
+</ul>
+```
+
+
+
+You create style.css for generic index elements for your design : 
 ```
   html, body, div, ul, li, img, h1, h2, h3 , h4, h5, p {
     box-sizing: border-box;
