@@ -1,6 +1,6 @@
 
 ------------------------------------------------- style.css  -------------------------------------------------
-
+```
   html, body, div, ul, li, img, h1, h2, h3 , h4, h5, p {
     box-sizing: border-box;
     padding:0;
@@ -73,22 +73,22 @@
     width:45%;
     margin:auto;
   }
-
+```
 
 ------------------------------------------------- FR.css -------------------------------------------------
-
-		.fr{
-    		display:block !important;
-  		}
-  	.en{
-  			display:none !important;
-  		}
- 		#english {
- 			margin-top:0px !important;
- 			cursor:pointer;
- 			transition: all 0.5s ease;
- 		}
-		#french{
-			margin-top:-350px !important;
- 			transition: all 0.5s ease;
-		}
+```
+.fr{
+	display:block !important;
+}
+.en{
+	display:none !important;
+}
+#english {
+	margin-top:0px !important;
+	cursor:pointer;
+	transition: all 0.5s ease;
+}
+#french{
+	margin-top:-350px !important;
+	transition: all 0.5s ease;
+}
