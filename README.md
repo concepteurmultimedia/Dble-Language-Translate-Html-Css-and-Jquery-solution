@@ -72,3 +72,21 @@ You may created ul and li with their "id" and put the onclick function for langu
 	margin-top:-350px !important;
 	transition: all 0.5s ease;
 }
+
+### En.css :
+.fr{
+display:none !important;
+}
+.en{
+	display:block !important;
+}
+#english {
+	margin-top:-350px !important;
+	transition : all 0.5s ease !important;
+}
+#french{
+	margin-top:0px;
+	cursor :pointer;
+	transition : all 0.5s ease !important;
+	cursor:pointer;
+}
