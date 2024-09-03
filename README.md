@@ -26,7 +26,7 @@ function langEnglish() {
 
 
 ### You create style.css for generic index elements and ul language of our design : 
-```CSS
+```Css
   html ul#language{
     width : 50px;
     height:50px;
