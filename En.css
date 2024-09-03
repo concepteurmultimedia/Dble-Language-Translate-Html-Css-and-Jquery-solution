@@ -1,0 +1,17 @@
+		.fr{
+    		display:none !important;
+  		}
+  		.en{
+  			display:block !important;
+  		}
+ 		#english {
+ 			margin-top:-350px !important;
+ 			/*display:none !important;*/
+ 			transition : all 0.5s ease !important;
+ 		}
+		#french{
+			margin-top:0px;
+			cursor :pointer;
+			transition : all 0.5s ease !important;
+		/*	display:block !important;*/cursor:pointer;
+		}
