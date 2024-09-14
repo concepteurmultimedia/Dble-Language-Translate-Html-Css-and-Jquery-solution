@@ -1,4 +1,10 @@
-You may created ul and li with their "id" and put the onclick function for language Fr/En :
+Vous devez créer un UL puis des LI :
+- French,
+- English,
+avec une ID correspondant
+à chaque langage choisis
+
+
 
 # Tips for Fr/En language : index.html
 Put this elements on our page :
@@ -8,13 +14,13 @@ Put this elements on our page :
 	<li id="english" onclick="langEnglish()">anglais</li>
 </ul>
 ```
-Create a class="fr" and class="en" attribut on ours elements in page
+Créez un élément avec une class="fr" et une class="en" en attribut de chaque élément 
 ```Html
 	<a class="fr" href="#" title="Accueil">Accueil</a>
 	<a class="en" href="#" title="Home">Home</a>
 ```
 
-# Tips for Fr/En function : language.js
+# Astuce pour la fonction Fr/En : language.js
 ```Js
 function langFrench(){
 	$( "#french" ).on( "click", function() {
@@ -29,7 +35,7 @@ function langEnglish() {
 ```
 
 
-# You create style.css for generic index elements and ul language of our design : 
+# puis créez une feuille de style : style.css pour les éléments génériques de votre index.html ainsi que éléments ul#language : 
 ```Css
   html ul#language{
     width : 50px;
@@ -70,7 +76,9 @@ function langEnglish() {
 
 
 
-# You can create two .css one for Fr and other for En 
+# Vous devez créer deux feuilles css :
+-Fr
+-En 
 
 ## Fr.css :
 ```Css
